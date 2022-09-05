@@ -1,0 +1,31 @@
+-trong thư mục components tạo file navbar.js
+import logo
+
+-import navbar vào App.js
+-tải package react-router-dom
+import browser router, route và switch
+
+-tạo folder pages chứa các trang
+tạp file Home.js import vào App.js và để trong Routes, để dưới thanh navbar 
+
+-ở file Navbar.js tạo 4 link là 4 trang của web
+
+-tạo folder styles chứa các css
+file app.css chứa css ảnh hưởng đến tất cả các trang
+-css cho thanh navbar
+
+-tải file icon
+import ReorderIcon
+-tạo 1 button để hiện icon khi thu hẹp trang web
+
+-dùng state: 1 kiểu biến khi thay đổi giá trị sẽ re-render lại web
+import useState ở React
+-tạo hàm toggleNavbar để đổi giá trị openLinks mỗi khi ấn vào button
+
+-trang Home.js
+thêm tiêu đề
+tạo button tới trang menu
+
+-tạo background cho trang Home
+
+-tạo footer cho mọi trang
